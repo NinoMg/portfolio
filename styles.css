@@ -1,0 +1,100 @@
+/*Titulos de seccion*/
+h2{
+    text-align: center;
+    padding: 5%;
+}
+
+/*botonera*/
+.logo a img{
+    
+    width: 150px;
+}
+
+.redes a img{
+    width: 47px;
+}
+
+/*banner*/
+.banner img{
+    
+    height: 700px;
+}
+
+/*acerca de mi*/
+.acercadm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6068c3;
+    
+}
+.nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    left: 10px;
+}
+
+.foto{
+    border-radius: 100%;
+}
+/*media de la foto*/
+
+@media screen (min-width: 576px){
+ .foto{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    left: 3%;
+    top: 600px;
+}
+
+}
+
+@media screen (max-width: 575px){
+    .foto{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        left: 33%;
+        top: 630px;
+    }
+    
+    }
+
+
+    /*Experiencia laboral*/
+
+    .expelaboral{
+        background-color: #348ce4;
+    }
+    .expelaboral h3{
+        display: inline;
+       
+    }
+
+    /*Skils*/
+
+    .skils{
+        background-color: #348ce4;
+        padding: 5%;
+    }
+
+    .circulo{
+        border-radius: 100%;
+        padding: 10%;
+    }
+
+    /*proyectos*/
+
+    .proyectos{
+        background-color: #348ce4;
+    }
+    footer{
+        color: #848ba3;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #1976d2;
+    }
