@@ -5,6 +5,10 @@ h2{
 }
 
 /*botonera*/
+
+nav{
+    background-color: #848ba3;
+}
 .logo a img{
     
     width: 150px;
@@ -22,12 +26,12 @@ h2{
 
 /*acerca de mi*/
 .acercadm{
-    display: flex;
-    position: relative;
+   
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #96b3c5;
+    
     
 }
 .nombre{
@@ -37,17 +41,19 @@ h2{
 }
 
 
-.foto{
-    width: 100%;
-    height: 100%;
-    border-radius: 100%; 
+.marcoFoto {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -140px;
     
 }
 
-.foto > .marcoFoto{
-    width: 150px;
-    height: 220px;
-    background-color: #bcdbfa;
+ .marcoFoto >.foto {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
 }
 
 
