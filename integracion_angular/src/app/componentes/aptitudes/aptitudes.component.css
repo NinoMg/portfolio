@@ -1,0 +1,35 @@
+ /*Skils*/
+
+ 
+
+ h2{
+    font-size:xxx-large;
+    color: #78C000;
+}
+
+ .skils{
+    background-color: #1159d7;
+    padding: 5%;
+}
+
+.circulo{
+    border-radius: 100%;
+    padding: 20px;
+    border: solid 2px;
+}
+.separacion{
+    padding: 30px;
+}
+.pieCirculo{
+    color: #d0da1b;
+    text-align:start;
+    font-weight: bold;
+}
+
+.nombre{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.3em;
+    left: 10px;
+    color: #d0da1b;
+}

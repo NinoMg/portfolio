@@ -1,0 +1,37 @@
+/*Experiencia laboral*/
+h2{
+    font-size:xxx-large;
+    color: #78C000;
+}
+
+.expelaboral{
+    background-color: #1159d7;
+    color: azure;
+    
+}
+.expelaboral ul{
+    list-style: none;
+    padding: 5%;
+}
+.expelaboral h3{
+    display: inline;
+}
+
+.expelaboral .row img{
+    height: 120px;
+}
+.marcoFoto {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+ .marcoFoto >.foto {
+    
+    width: 100%;
+    border-radius: 50%;
+}
+
+h4{
+    color: #d0da1b;
+}

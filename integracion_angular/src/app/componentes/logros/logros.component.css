@@ -1,0 +1,34 @@
+/*proyectos*/
+h2{
+    font-size:xxx-large;
+    color: #78C000;
+}
+
+h3{
+    text-align: center;
+    padding: 7%;
+}
+
+h4{
+    color: #d0da1b;
+}
+
+.proyectos{
+    background-color: #1159d7;
+    color: azure;
+    padding-bottom: 7%;
+}
+
+.achicar{
+    height: 150px;
+    width: 150px;
+}
+
+footer{
+    color: #848ba3;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1976d2;
+}

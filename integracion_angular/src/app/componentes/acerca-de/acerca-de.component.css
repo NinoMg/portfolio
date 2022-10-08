@@ -1,0 +1,63 @@
+/*acerca de mi*/
+h2{
+    font-size:xxx-large;
+    color: #78C000;
+}
+
+.acercadm{
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #1159d7;
+    color: azure;
+}
+.nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    left: 10px;
+    color: #d0da1b;
+}
+
+
+.marcoFoto {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -140px;
+    left: 20px;
+    
+}
+
+ .marcoFoto >.foto {
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+
+/*media de la foto*/
+
+/*@media screen (min-width: 576px){
+ .foto{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    left: 3%;
+    top: 600px;
+}
+
+}
+
+@media screen (max-width: 575px){
+    .foto{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        left: 33%;
+        top: 630px;
+    }
+    
+    }
+*/
