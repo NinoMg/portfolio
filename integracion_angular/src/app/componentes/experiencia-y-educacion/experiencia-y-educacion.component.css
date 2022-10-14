@@ -11,7 +11,10 @@ h2{
 }
 .expelaboral ul{
     list-style: none;
-    padding: 5%;
+    padding: 2%;
+}
+.expelaboral li{
+    margin: 2%;
 }
 .expelaboral h3{
     display: inline;
@@ -23,7 +26,8 @@ h2{
 .marcoFoto {
     width: 150px;
     height: 150px;
-    position: relative;
+    /*position: relative;*/
+    margin-top: 1%;
 }
 
  .marcoFoto >.foto {
